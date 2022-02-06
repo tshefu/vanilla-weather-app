@@ -59,3 +59,15 @@ li {
   top: -10px;
   left: 7px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
