@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -96,4 +96,31 @@ a {
 
 .weather-forecast-temperatures-min {
   opacity: 0.5;
+}
+.weather-forecast-temperature-max {
+  color: #ec6e4b;
+}
+
+#city {
+  font-weight: bold;
+  color: black;
+}
+
+.btn {
+  background-color: #ec6e4b;
+  border-color: #ec6e4b;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #ec6e4b;
+  border-color: #ec6e4b;
+}
+
+#source-link {
+  color: #ec6e4b;
+}
+
+.weather-details {
+  text-align: right;
 }
